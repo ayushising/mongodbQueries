@@ -31,7 +31,7 @@ Solutions:-
 
 2:- db.movie.find({writer:"Quentin Tarantino"})
 
-3:-mydb> db.movie.findMany({actors:"Brad Pitt"})
+3:-mydb> db.movie.find({actors:"Brad Pitt"})
 
 4:-mydb> db.movie.find({franchise:"The Hobbit"})
 
