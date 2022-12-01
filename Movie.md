@@ -45,7 +45,10 @@ mydb> db.movie.distinct('writer')
 
 8:-db.movie.update({title:"Pulp Fiction"},{$push:{"actors":"Samuel L. Jackson"}})
 
-9:-
+9:-mydb> db.movie.find({synopsis:{$regex:"Gandalf"}})
+
+// db.movie.find({},{synopsis:1})
+
 
 10:-mydb> db.movie.find().sort({year:-1})
 
